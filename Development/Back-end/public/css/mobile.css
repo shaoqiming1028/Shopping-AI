@@ -1,0 +1,186 @@
+        @media only screen and (max-width:330px){
+            #search_box{
+                padding-left:8%;
+                padding-top:4%;
+                padding-bottom: 1%;
+            }
+            .for_product{
+                width:95%;
+                margin-left:5%;
+            }
+
+            .pic{
+                width:25%;
+            }
+            .proPickuan{
+                width:88%;
+                height:;
+            }
+            .proPickuan img{
+                width:100%;
+            }
+            .divtitle{
+                width:50%;
+            }
+            .divprice{
+                width: 20%;
+            }
+            .hp_sw{
+                width:50px;
+            }
+            .hp_sw img{
+                width: 50px;
+            }
+            .b_searchbox{
+                width: 230px;
+            }
+        }
+
+        @media only screen and (min-device-width:350px) and (max-device-width:415px){
+            #search_box{
+                padding-left:8%;
+                padding-top:4%;
+                padding-bottom: 1%;
+            }
+            .for_product{
+                width:95%;
+                margin-left:5%;
+            }
+
+            .pic{
+                width:25%;
+            }
+            .proPickuan{
+                width:88%;
+                height:;
+            }
+            .proPickuan img{
+                width:100%;
+            }
+            .divtitle{
+                width:50%;
+            }
+            .divprice{
+                width: 20%;
+            }
+            .hp_sw{
+                width:40px;
+            }
+            .hp_sw img{
+                width: 40px;
+            }
+            .b_searchbox{
+                width: 270px;
+            }
+        }
+        @media only screen and (min-device-width:416px) and (max-device-width:768px){
+            #search_box{
+                padding-left:8%;
+                padding-top:4%;
+                padding-bottom: 1%;
+            }
+            .for_product{
+                width:95%;
+                margin-left:5%;
+            }
+
+            .pic{
+                width:25%;
+            }
+            .proPickuan{
+                width:88%;
+                height:;
+            }
+            .proPickuan img{
+                width:100%;
+            }
+            .divtitle{
+                width:50%;
+            }
+            .divprice{
+                width: 20%;
+            }
+            .hp_sw{
+                width:50px;
+            }
+            .hp_sw img{
+                width: 50px;
+            }
+            .b_searchbox{
+                width: 500px;
+            }
+        }
+        @media only screen and (min-device-width:769px) and (max-device-width:1023px){
+            #search_box{
+                padding-left:8%;
+                padding-top:4%;
+                padding-bottom: 1%;
+            }
+            .for_product{
+                width:95%;
+                margin-left:5%;
+            }
+
+            .pic{
+                width:25%;
+            }
+            .proPickuan{
+                width:88%;
+                height:;
+            }
+            .proPickuan img{
+                width:100%;
+            }
+            .divtitle{
+                width:50%;
+            }
+            .divprice{
+                width: 20%;
+            }
+            .hp_sw{
+                width:70px;
+            }
+            .hp_sw img{
+                width: 70px;
+            }
+            .b_searchbox{
+                width: 600px;
+            }
+        }
+        @media only screen and (min-width:1024px){
+                    #search_box{
+                padding-left:8%;
+                padding-top:4%;
+                padding-bottom: 1%;
+            }
+            .for_product{
+                width:95%;
+                margin-left:5%;
+            }
+
+            .pic{
+                width:25%;
+            }
+            .proPickuan{
+                width:88%;
+                height:;
+            }
+            .proPickuan img{
+                width:100%;
+            }
+            .divtitle{
+                width:50%;
+            }
+            .divprice{
+                width: 20%;
+            }
+            .hp_sw{
+                width:70px;
+            }
+            .hp_sw img{
+                width: 70px;
+            }
+            .b_searchbox{
+                width: 600px;
+            }
+        }

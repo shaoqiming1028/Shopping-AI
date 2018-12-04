@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<% include ../partials/head %>
+<body>
+<% include ../partials/header %>
+
+  <div class="center_layout">
+    <div id="image_gallery">
+      <img src="../images/hpic1.jpg" class="active">
+    </div>
+  </div>
+
+  <div class="login_layout">
+    <form action="/login" method="post" class="inner_login">
+      <div class="padd_control">
+        <input class="form-control" type="text" id="username" name="username" placeholder="Seller name"/>
+      </div>
+      <div class="padd_control">
+        <input class="form-control" type="password" id="password" name="password" placeholder="Password"/>
+      </div>
+      <div class="padd_control">
+        <button class="btn btn-success" type="submit">Login</button>
+        <button type="button" class="btn btn-primary pull-right" onclick="signup()">Sign Up</button>
+      </div>
+    </form>
+
+
+  <!-- Modal -->
+  <div id="signUpResultModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <p class="success"></p>
+          <p class="failure"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <script>
+    function signup() {
+      var userEmail = $('#username')[0].value;
+      var userPassword= $('#password')[0].value;
+
+      console.log("signing Up");
+
+      $.post({
+      url: '/users_public/signup',
+      data: {email : userEmail, password: userPassword}
+      }).success(function(result) {
+        if (result.success) { 
+          console.log("signup success");
+          var successMsg = '<strong>Congratulations !</strong> you have successfully joined our team!';
+          $("#signUpResultModal p.failure").hide();
+          $("#signUpResultModal p.success").show();
+          $("#signUpResultModal p.success").html(successMsg);
+          $("#signUpResultModal .modal-title").html("Congratulations!");
+          
+        } else {
+          $("#signUpResultModal p.success").hide();
+          $("#signUpResultModal p.failure").show();
+          $("#signUpResultModal p.failure").html(result.err.errmsg);
+          $("#signUpResultModal .modal-title").html("Uh Oh!");
+          console.log(result.err);
+        }
+
+        $("#signUpResultModal").modal('show');
+      });
+    }
+  </script>
+<% include ../partials/footer %>
+</body>
+</html>

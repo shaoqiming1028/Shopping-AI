@@ -1,0 +1,232 @@
+2018-08-08 15:41:51 [scrapy.core.scraper] ERROR: Error processing {'image': 'https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/2/1/1213459-th.jpg',
+ 'location': 'Coles',
+ 'name': "Vital Strength Define Women's Vanilla Protein Powder 500g on special",
+ 'price1': '20.61',
+ 'price2': '20.61'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/yunqingqi/PycharmProjects/crawlcoles/crawlcoles/pipelines.py", line 30, in process_item
+    self.db['products'].insert(dict(item))
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 3161, in insert
+    check_keys, manipulate, write_concern)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1243, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1196, in _retry_with_session
+    return func(session, sock_info, retryable)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 590, in _insert_command
+    retryable_write=retryable_write)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    self._raise_connection_failure(error)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/pool.py", line 745, in _raise_connection_failure
+    raise error
+  File "/usr/local/lib/python3.6/site-packages/pymongo/pool.py", line 579, in command
+    unacknowledged=unacknowledged)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/network.py", line 150, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/helpers.py", line 132, in _check_command_response
+    raise NotMasterError(errmsg, response)
+pymongo.errors.NotMasterError: interrupted at shutdown
+2018-08-08 15:42:21 [scrapy.core.scraper] ERROR: Error processing {'image': 'https://shop.coles.com.au/wcsstore/ColesResponsiveStorefrontAssetStore/dist/a9571548a0b2d46119b366500744ad33/img/img_product-placeholder.png',
+ 'location': 'Coles',
+ 'name': 'Darikay Lentil Soup 560g ',
+ 'price1': '6.50',
+ 'price2': '6.50'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/yunqingqi/PycharmProjects/crawlcoles/crawlcoles/pipelines.py", line 30, in process_item
+    self.db['products'].insert(dict(item))
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 3161, in insert
+    check_keys, manipulate, write_concern)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1242, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/local/Cellar/python/3.6.4_4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1571, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 427, in get_server_session
+    None)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 199, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 54.206.43.206:27017: [Errno 61] Connection refused
+2018-08-08 15:42:52 [scrapy.core.scraper] ERROR: Error processing {'image': 'https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/6/8/2681190-th.jpg',
+ 'location': 'Coles',
+ 'name': 'Coles Chicken Portobello Mushroom & Fetta 450g everyday product',
+ 'price1': '7.00',
+ 'price2': '7.00'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/yunqingqi/PycharmProjects/crawlcoles/crawlcoles/pipelines.py", line 30, in process_item
+    self.db['products'].insert(dict(item))
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 3161, in insert
+    check_keys, manipulate, write_concern)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1242, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/local/Cellar/python/3.6.4_4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1571, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 427, in get_server_session
+    None)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 199, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 54.206.43.206:27017: [Errno 61] Connection refused
+2018-08-08 15:43:22 [scrapy.core.scraper] ERROR: Error processing {'image': 'https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/2/7/2279350-th.jpg',
+ 'location': 'Coles',
+ 'name': "Nature's Way Vita Gummies Family Multivitamin 180 pack everyday "
+         'product',
+ 'price1': '25.00',
+ 'price2': '25.00'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/yunqingqi/PycharmProjects/crawlcoles/crawlcoles/pipelines.py", line 30, in process_item
+    self.db['products'].insert(dict(item))
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 3161, in insert
+    check_keys, manipulate, write_concern)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1242, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/local/Cellar/python/3.6.4_4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1571, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 427, in get_server_session
+    None)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 199, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 54.206.43.206:27017: [Errno 61] Connection refused
+2018-08-08 15:43:53 [scrapy.core.scraper] ERROR: Error processing {'image': 'https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/0/1/2010560-th.jpg',
+ 'location': 'Coles',
+ 'name': 'Vital Strength Glutamine Muscle Recovery Powder 300g on special',
+ 'price1': '20.96',
+ 'price2': '20.96'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/yunqingqi/PycharmProjects/crawlcoles/crawlcoles/pipelines.py", line 30, in process_item
+    self.db['products'].insert(dict(item))
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 3161, in insert
+    check_keys, manipulate, write_concern)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1242, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/local/Cellar/python/3.6.4_4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1571, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 427, in get_server_session
+    None)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 199, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 54.206.43.206:27017: [Errno 61] Connection refused
+2018-08-08 15:44:23 [scrapy.core.scraper] ERROR: Error processing {'image': 'https://shop.coles.com.au/wcsstore/Coles-CAS/images/7/9/7/7974083-th.jpg',
+ 'location': 'Coles',
+ 'name': 'Garlos Junior Sausage Rolls 12 pack 780g ',
+ 'price1': '9.20',
+ 'price2': '9.20'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/yunqingqi/PycharmProjects/crawlcoles/crawlcoles/pipelines.py", line 30, in process_item
+    self.db['products'].insert(dict(item))
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 3161, in insert
+    check_keys, manipulate, write_concern)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1242, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/local/Cellar/python/3.6.4_4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1571, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 427, in get_server_session
+    None)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 199, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 54.206.43.206:27017: [Errno 61] Connection refused
+2018-08-08 15:44:53 [scrapy.core.scraper] ERROR: Error processing {'image': 'https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/1/6/3166087-th.jpg',
+ 'location': 'Coles',
+ 'name': 'Coles Value Meals Chicken Curry With Rice 350g everyday product',
+ 'price1': '3.50',
+ 'price2': '3.50'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/yunqingqi/PycharmProjects/crawlcoles/crawlcoles/pipelines.py", line 30, in process_item
+    self.db['products'].insert(dict(item))
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 3161, in insert
+    check_keys, manipulate, write_concern)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1242, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/local/Cellar/python/3.6.4_4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1571, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1558, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1511, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1544, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 427, in get_server_session
+    None)
+  File "/usr/local/lib/python3.6/site-packages/pymongo/topology.py", line 199, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 54.206.43.206:27017: [Errno 61] Connection refused

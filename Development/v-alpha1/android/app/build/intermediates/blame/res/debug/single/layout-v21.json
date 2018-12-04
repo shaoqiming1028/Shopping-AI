@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\bottom_navigation_small_item.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.aurelhubert\\ahbottomnavigation\\2.0.6\\res\\layout-v21\\bottom_navigation_small_item.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\bottom_navigation_item.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.aurelhubert\\ahbottomnavigation\\2.0.6\\res\\layout-v21\\bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

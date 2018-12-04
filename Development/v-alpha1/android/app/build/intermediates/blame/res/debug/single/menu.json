@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stub.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\valpha1\\react-native-navigation\\unspecified\\res\\menu\\stub.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search_item.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\valpha1\\react-native-navigation\\unspecified\\res\\menu\\search_item.xml"
+    }
+]

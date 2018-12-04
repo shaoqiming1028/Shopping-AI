@@ -1,0 +1,29 @@
+<!-- views/partials/header.ejs -->
+
+<nav class="navbar-default" role="navigation">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+                <span class="glyphicon glyphicon glyphicon-home"></span>
+                Shopping AI
+            </a>
+        </div>
+
+        <ul class="nav navbar-nav">
+            <li><a href="/price">Price</a></li>
+            <li><a href="/map">Map</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+            <li>
+                <a href="/users_public/login">
+                    <% if (username) { %>
+                        <%= username %>
+                    <% } else {  %>
+                        <button class="btn btn-primary btn-sm">Login</button>
+                    <% } %>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

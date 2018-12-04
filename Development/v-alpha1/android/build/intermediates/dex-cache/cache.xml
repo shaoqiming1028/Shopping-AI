@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_33fa245c837948b4994e157aaf090e9e251259f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_0593a8a10b4996fa70819e832785f5eeb24bba5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_bf0d954af1002171c35847fb0a7ca6c7bfa7b78d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_aedad7795e49b2b7a796ed9eb0e9ee10314a47f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_92fa619b51efb55a6370d9d409e37b55ef5abae1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_e391d2aa4437748c665adb6cd479fcc2063c9478.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\valpha1\react-native-image-picker\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5e6570156a5a06abc6990fe34cd577d9fb0172c6">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\valpha1-react-native-image-picker-unspecified_726aeae7a6ef70bb338df4b1736534efe6b24a7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\L\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_0b64b7aa6877f5755f5c4c87bc83709724d2675d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_8bab2a99cf89a8315b05d3a85d2af1da5fa8bd77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_c881b905b32fe8c631c978fabf870c8b5811ae72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_1231db52c00db475ce2b4a7565aa18c35b78b45f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_56ee2c9f48d1548e6d313f3d374105995288e92c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_af671a6730ebc4a070ccf8b76809621a8b045d2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_0a1c1adb800388e6f7104fc4dfd08558a92cb1aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\L\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_f5636f37e4b310b29b0a4ebe5bffc3317ed0b4f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu\1.5.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.balysv.materialmenu-material-menu-1.5.4_3bb351ddbd4694958895a2b2f2dc085567dd895d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_3b30981871858828d99fe3f9017457704a4fb483.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\L\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_83b6888e7e0767d90bf1bfa5cce63707f3b76a08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_7639f1ab799cc00c52fb2e395faf5b3fb8b9a0d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_cfc3d74c257ff0986d632de377e8211fb97b541b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\valpha1\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\valpha1-react-native-vector-icons-unspecified_77c3e96cca621d3906c17390835f9aea552a8591.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_56794badb6a52e848e3c80b082eb96b58781c470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\valpha1\react-native-navigation\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ab538d978c1fcab7f89c5f96ad75f1305d4f7e80">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\valpha1-react-native-navigation-unspecified_401a2ea1e18aee64ad15138e177dfd4dca7a6cfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\L\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\library-2.4.0_bf129c924a9b913389d87a52e46ac2d3cedabee0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_a39753c9bbf9dbb23bd3ce0a1fabbfb904d73680.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu-toolbar\1.5.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.balysv.materialmenu-material-menu-toolbar-1.5.4_516d3a56aa5648346c4695b6e29b0df9e99b5525.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_a3b9418e3a6c85058c4f2b4daf2af1e3fb624eda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_3f1d2445abd312b6cdaf3941bfaea5e8cc08ef66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\L\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_7fadb30edea9ae4a3b528d14315ee2121fdc0739.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_fe74cb23f9a089a6efcd04f6c5ed3ea9361d554a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_4c54a2f585bc9484612ae304df8ebca4f27a152f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.aurelhubert\ahbottomnavigation\2.0.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.aurelhubert-ahbottomnavigation-2.0.6_1332fdefb33d556c4c3a925822856c00ce8d7a8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\L\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_bacb574b9ed02aacbfceab5673ee0ba217680f60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_e78bc58ad096812600b80ecb7a8a3c7b5d3fd864.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\L\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_954662402aac13ca97ad27c3ce47b1974ad22a1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_812e7fba0b264594811afaab409656af7f9086d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\L\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\MSE Project S2\mse18-product-scanner\Development\v-alpha1\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_9bb6409889763da865ba41cc95ce5a632e837eb9.jar" />
+    </item>
+
+</items>

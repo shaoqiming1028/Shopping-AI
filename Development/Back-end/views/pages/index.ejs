@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <% include ../partials/head %>
+  <body>
+    <% include ../partials/header %>
+    <script>
+      function cycleImages(){
+        var $active = $('#image_gallery .active');
+        var $next = ($active.next().length > 0) ? $active.next() : $('#image_gallery img:first');
+        $next.css('z-index',2);//move the next image up the pile
+        
+        $active.fadeOut(3000,function(){//fade out the top image
+          $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+          $next.css('z-index',3).addClass('active');//make the next image the top one
+        });
+      }
+
+      $(document).ready(function(){
+        setInterval('cycleImages()', 5000);
+      })
+
+    </script>
+    <div class="center_layout">
+      <div id="image_gallery">
+        <img src="images/hpic1.jpg" class="active">
+        <img src="images/hpic2.jpg" />
+        <img src="images/hpic3.jpg" />
+        <img src="images/hpic4.jpg" />
+      </div>
+    </div>
+    <form action="/map" method="get" class="search_layout">
+         <div class="inner_search controls form-inline">
+                 <!-- <select class="form-control" name="listingType">
+                     <option>Buy</option>
+                     <option>Rent</option>
+                 </select> -->
+                <input name="products" class="form-control" type="text" placeholder="key words"/>
+                <!-- <input name="country" class="form-control" type="text" placeholder="country"/> -->
+                <input type="submit" class="btn btn-success" value="search">
+         </div>
+    </form>
+  <% include ../partials/footer %>
+  </body>
+</html>

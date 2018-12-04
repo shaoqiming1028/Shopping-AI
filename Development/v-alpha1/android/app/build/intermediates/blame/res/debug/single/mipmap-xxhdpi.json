@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_notif.png",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_notif.png"
+    }
+]

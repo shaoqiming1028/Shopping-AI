@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+#bgDiv{position:absolute;top:0;overflow:hidden;width:100%;height:100%;background-repeat:no-repeat;background-color:#666;background-size:cover}
+        
+        /*导致搜索框一直跟着窗口变小，从而导致 logo 和 搜索框 上下分层的原因就是：*/
+        /*我们的#sbox 的父级的div 是bgDiv，而bgDiv的宽和高设置的是100%，这就要求bgDiv的父级div(这里是container)*/
+        /*有最小的高度和宽度！！！！还要设置  position: relative; 还有一点就是，我们的search-box设定了，当窗口小于760px的时候，search-box的最小宽度，才能实现*／
+        /*搜索框不会一直跟着窗口变小，从而导致分层！！！！！！！！！！！！！！！！！！！！！！*/
+        .container{
+            /*min-width: 1100px;*/
+            /*min-height: 600px;*/
+            width: 100%;
+            height:100%;
+            overflow: hidden;
+            position: relative;
+            margin: auto;
+        }
+    
+        #bgDiv {
+            position: absolute;
+            top: 0;
+            /*overflow: hidden;*/
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-color: #666;
+            /*铺满整个页面*/
+            background-size: cover;
+        }
+
+        .search_controls {
+            display: inline-block;
+        }
+
+        body .b_searchboxForm{
+            background-color: #fff;
+            border: 1px #ccc solid;
+            padding: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,.3);
+        }
+
+#searchInput{
+    display: inline-block;;
+}
+.sw_sform {
+    position: absolute;
+    top: 23%;
+    left: 8%;
+    margin: 0;
+    z-index: 9;
+}
+
+.b_searchbox {
+    width: 490px;
+    margin: 7px 1px 0 15px;
+    border: 0;
+    padding: 0 10px 0 0;
+    max-height: 30px;
+    outline: none;
+    -webkit-appearance: none;
+    border-color: #ccc;
+    box-sizing: content-box;
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width:1366px) and (max-width:1439px){.b_searchboxSubmit{height:49px;width:49px;border-width:10px} .b_searchbox{width:540px;margin-top:8px}.hpcLogoWhite{margin-top:-3px}}
+
+@media screen and (min-width:1440px) and (max-width:1919px){.b_searchboxSubmit{height:51px;width:51px;border-width:11px}.b_searchbox{width:557px;margin-top:10px;margin-left:12px}.hpcLogoWhite{margin-top:-1px}}
+
+@media screen and (min-width:1920px) and (max-width:2559px){.b_searchboxSubmit{height:53px;width:53px;border-width:12px}.b_searchbox{width:581px;margin-top:11px;margin-left:12px}#.hpcLogoWhite{margin-top:0}}
+
+@media screen and (min-width:2560px){#.b_searchboxSubmit{height:57px;width:57px;border-width:14px}.b_searchbox{width:627px;margin-top:13px;margin-left:15px}#.hpcLogoWhite{margin-top:2px}}
+
+.b_searchboxSubmit {
+            height: 45px;
+            width: 45px;
+            border: 8px solid #fff;
+            background: #fff url(/search.png) no-repeat;
+            overflow: hidden;
+            vertical-align: top;
+ }
+.hpcLogoWhite{background-position:0 0;margin:-7px 21px 0 0;width:132px;height:52px}
+
+@media only screen and (min-width:768px) and (max-width:768px){#sbox.sw_sform{padding-left:42px}.b_searchbox{width:547px}}
+
+@media only screen and (min-width:1024px) and (max-width:1024px){#sbox.sw_sform{left:42px !important}.b_searchbox{width:802px}}}
+
+@media only screen and (max-width:980px){.sw_sform{width:100% !important;padding:0 20px;left:auto !important;right:auto !important}}
+
+@media only screen and (min-width:1601px) and (max-width:1919px){#sbox.sw_sform{left:calc(50vw - 688px)}}
+
+@media only screen and (min-width:1920px) and (max-width:2559px){#sbox.sw_sform{left:calc(50vw - 768px)}}
+
+@media only screen and (min-width:2560px){#sbox.sw_sform{left:calc(50vw - 896px)}}
+
+        .hp_sw_logo{
+            float: left;
+            background-position: 0 0;
+            width: 132px;
+            height: 52px;
+            background: transparent url(/logo.jpeg) no-repeat;
+            overflow: hidden;
+        }
+
+        #bLogoExp{
+            position: absolute;
+            top: 15px;
+            left: 16px;
+            height: 37px;
+            width: 75px;
+            z-index: 1;
+            display: none;
+            background-size:cover;
+            background-image:url(/logo.jpeg);
+        }
+@media only screen and (min-device-width:768px) and (max-device-width:1023px){#sbox.sw_sform{top:25%;left:8%;margin-left:0}.b_searchbox{width:487px}}
+
+@media only screen and (max-width:767px){#sbox.sw_sform{top:25%;left:0;margin-left:0}.b_searchbox{width:270px}}
+
+
+        #as {
+            width: auto;
+            position: relative;
+            z-index: 6;
+        }
+        .as_as {
+            background-color: #fff;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #e5e5e5;
+            position: absolute;
+            width: 100%;
+        }
+        #sa_ul {
+            padding-left: 10px;
+            box-shadow: none;
+            margin:0;
+        }
+        .suggest{
+                line-height: 30px;
+                font-size: 16px;
+                border: 0;
+                border-collapse: collapse;
+                border-spacing: 0;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+        }
+        li a{
+            color: #3c353e;
+        }
+                input{
+                outline: none;
+            }
+
+            body {
+            font-size: 16px;
+            font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+            border-collapse: collapse;
+            max-width: none;
+            max-height: none;
+        }

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "D:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<% include ../partials/head %>
+<body>
+<% include ../partials/header %>
+<div id="content">
+        <div id="map"></div>
+</div>
+<% include ../partials/footer %>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDakAvDEZmMfMOVhIPfrke7EnVkflYVPX4&callback=initMap" async defer></script>
+
+<script>
+        var city = "<%= query.city %>";
+        var country = "<%= query.country %>";
+        var listingType = "<%= query.listingType %>";
+
+        var address = {};
+
+        var query = { 
+                listingType : listingType ,
+                address : address 
+        };
+
+</script>
+
+<script src="javascript/map.js"></script>
+</body>
+</html>

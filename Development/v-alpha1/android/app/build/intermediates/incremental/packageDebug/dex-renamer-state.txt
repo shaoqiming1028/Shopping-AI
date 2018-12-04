@@ -1,0 +1,4 @@
+#Tue Oct 16 11:56:40 ACDT 2018
+base.0=D\:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\MSE Project S2\\mse18-product-scanner\\Development\\v-alpha1\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
