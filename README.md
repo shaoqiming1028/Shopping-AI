@@ -1,5 +1,5 @@
 # Shopping-AI
-This project is a platform to provide services for both customers and sellers. 
+This project is a platform to provide services for both customers and sellers to find the products lowest price by taking a photo. 
 
 My responsibility: 
 
