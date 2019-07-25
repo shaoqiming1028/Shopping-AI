@@ -3,7 +3,7 @@ This project is a platform to provide services for both customers and sellers to
 
 My responsibility: 
 
-Back-end system:  Express, Node.js 
+Full-stack:  Express 
 
 Image retrieval model: Pytorch ResNet
 
